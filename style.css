@@ -79,8 +79,10 @@ footer {
 }
 
 .logo {
-  max-width: 80px;
+  width: 4rem;
+  max-width: 100%;
   height: auto;
+  margin-bottom: 0.5rem;
 }
 
 .header-text h1 {
