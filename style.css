@@ -70,8 +70,25 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
 .logo {
-  max-width: 100px;
+  max-width: 80px;
   height: auto;
-  margin-bottom: 0.5rem;
+}
+
+.header-text h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0;
 }
