@@ -70,27 +70,26 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
-.header-flex {
+.navbar {
   display: flex;
   align-items: center;
+  gap: 1rem;
+  padding: 1rem;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
 }
 
 .logo {
-  width: 4rem;
-  max-width: 100%;
+  width: 3rem;  /* 48px aprox. */
   height: auto;
-  margin-bottom: 0.5rem;
 }
 
-.header-text h1 {
-  font-size: 2rem;
+.nav-text h1 {
+  font-size: 1.6rem;
   margin: 0;
 }
 
-.header-text p {
-  font-size: 1.1rem;
-  margin: 0.5rem 0 0;
+.nav-text p {
+  font-size: 1rem;
+  margin: 0;
+  color: #555;
 }
