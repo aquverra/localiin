@@ -70,3 +70,7 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+.logo {
+  max-width: 160px;
+  margin-bottom: 1rem;
+}
